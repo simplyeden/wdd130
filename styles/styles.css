@@ -13,7 +13,7 @@ h1 {
     color: darkblue;
 }
 
-img {
+main img {
     width: 150px;
     height: auto;
     border: 1px solid black;
@@ -39,10 +39,10 @@ aside {
     text-align: center;
 }
 
-main img {
+aside img {
     width: 200px;
     height: auto;
-    box-shadow: grey;
+    box-shadow: gray;
 }
 
 footer {

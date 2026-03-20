@@ -1,6 +1,9 @@
-* { margin:0; 
-    padding:0; 
-    box-sizing: border-box;}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-size: 16px;
     font-family: Arial, sans-serif;
@@ -21,6 +24,7 @@ h1 {
     color: rgb(70, 70, 185);
     padding: 0.5rem;
 }
+
 main {
     max-width: 640px;
 }
@@ -44,11 +48,13 @@ aside {
     text-align: center;
     position: relative;
 }
-aside h2{
+
+aside h2 {
     position: absolute;
     top: 47px;
     left: 150px;
 }
+
 aside img {
     width: 200px;
     height: auto;
@@ -59,14 +65,17 @@ footer {
     border-top: 1px solid #000;
     text-align: center;
 }
+
 /* Class Selectors */
-.box { margin: 1rem;
+.box {
+    margin: 1rem;
     border: 1px solid (red, green, blue) /10%;
     padding: 1rem;
     background-color: #ddd;
     color: #000;
 
 }
+
 .indent {
     padding-left: 2rem;
 }

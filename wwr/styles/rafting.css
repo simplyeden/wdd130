@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+
+:root{
+    --primary-color:white;
+    --secondnary-color: rgb(247, 246, 230) ; 
+    --accent-color1:black;
+    --accent-color2: rgb(8, 38, 38);
+    --heading-font: Georgia, 'Times New Roman', Times, serif;
+    --body-font: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: var(--primary-color);
+    color: var(--accent-color2);
+    width: 840;
+    margin: 0 auto;}
+
+body{
+    font-family: var(--body-font);
+    color: var(--accent-color1);}
+
+
+nav,p,section,article{
+    margin: 16px;
+    padding: 8px;
+}
+h1{
+        font-family: var(--heading-font);
+        color: var(--accent-color2);
+        background-color: aquamarine;
+        text-align: center;
+    }
+h2 {
+    font-family: var(--heading-font);
+    color: var(--accent-color2);
+    background-color: aquamarine;
+    text-align: center;
+}
+
+main{ width: 640;
+margin: 0 auto;}
+
+footer{
+    width: 640;
+    margin: 0 auto;
+    border-bottom: rgba(127, 255, 212, 0.861);
+}
+
+/* Class Selectors */
+.socialmedia a{
+    text-decoration: none;
+}
+
+.hero{
+    position: relative;}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;}
+
+.hero article img{
+    float: right;
+    width: 125px;
+    height: auto;
+}
+.hero article {
+background-color: aqua;
+top: 200px;
+position: absolute;
+left: 20px;
+opacity: 0.7;}
+
+.hero h1{background-color: aqua;
+top: 16px;
+padding: 8px;
+width: 100%;
+position: absolute;
+text-align: center;
+opacity: 0.7;
+}
+

@@ -86,7 +86,12 @@ footer {
     justify-content: space-evenly
     
 }
+.socialmedia a{
+    text-decoration: none;
+    
 
+}
+    
 .navigation {
     display: flex;
     list-style: none;

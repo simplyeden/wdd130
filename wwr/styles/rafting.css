@@ -32,7 +32,7 @@ body {
     font-family: var(--body-font);
     color: var(--accent-color1);
 }
-nav a{
+footer nav a{
     text-decoration: none;
 }
 

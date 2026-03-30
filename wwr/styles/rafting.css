@@ -33,19 +33,6 @@ body {
     color: var(--accent-color1);
 }
 
-nav ul{
-    display: flex;
-    list-style: none;
-    align-items: center;
-    flex: 1 1 auto;
-    text-decoration: none;
-    justify-content: space-evenly;
-    padding: 1rem;
-    }
-nav li a {
-    text-decoration: none;
-}
-
 
 nav,
 p,
@@ -95,8 +82,18 @@ footer {
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     justify-content: space-evenly
-    
-    
+}
+.navigation {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    flex: 1 1 auto;
+    text-decoration: none;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+.navigation li a{
+    text-decoration: none;
 }
 
 .hero {

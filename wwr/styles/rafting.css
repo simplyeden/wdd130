@@ -32,7 +32,9 @@ body {
     font-family: var(--body-font);
     color: var(--accent-color1);
 }
-
+nav a{
+    text-decoration: none;
+}
 
 nav,
 p,
@@ -82,7 +84,9 @@ footer {
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     justify-content: space-evenly
+    
 }
+
 .navigation {
     display: flex;
     list-style: none;

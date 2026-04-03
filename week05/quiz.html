@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Quiz</title>
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+<body>
+    <main class="box">
+        <h1> ✅ Basic HTML Quiz</h1>
+        <form class="box">
+            <div class="quiz-item box">
+                <label for="q1">1. What’s one thing you love to do that instantly lifts your mood?</label>
+                <input type="text" id="q1" name="q1">
+            </div>
+            <div class="quiz-item box">
+                <label for="q2">2. If you had unlimited free time, what would you spend it doing?</label>
+                <textarea name="q2" id="q2" rows="4"></textarea>
+            </div>
+            <div class="quiz-item box">
+                <label for="q3">3. Which do you love to do most when you want to feel happy and fulfilled? </label>
+                <select name="q3" id="q3" >
+                    <option value="" selected disabled >Choose One</option>
+                    <option value="a">Create Something Artistic</option>
+                    <option value="b">Stay Active</option>
+                    <option value="c">Relax and Recharge</option>
+                    <option value="d">Learn and explore</option>
+                    <option value="e">Spend Time with People</option>
+                </select>
+            </div>
+            <div class="quiz-item box">
+                <label for="q4">4. Has something you love to do ever turned into a useful skill in your everyday life?</label>
+                <select name="skill" id="skill">
+                    <option value=""selected disabled>Yes or No</option>
+                    <option value="yes">Yes</option>
+                    <option value="no">No</option>
+                </select>
+            </div>
+            <div class="quiz-item box">
+                <label for="q5">5. What’s one thing you’ve always wanted to try doing but haven’t yet?</label>
+                <input type="text" id="q5" name="q5">
+            </div>
+                <button type="Submit">Submit Quiz</button>
+
+        </form>
+    </main>
+    
+</body>
+</html>

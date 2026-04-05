@@ -22,7 +22,6 @@ header {
     background-color:var(--secondnary-color);
     color: var(--accent-color2);
     border: 1px solid var(--accent-color1);
-    padding: 1rem;
 }
 
 header img {
@@ -313,5 +312,6 @@ input[type="radio"] {
 input[type="checkbox"] {
     width: 16px;
     height: 16px;
+    margin: 0 2px;
    
 }

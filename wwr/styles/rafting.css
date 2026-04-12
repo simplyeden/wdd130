@@ -429,15 +429,22 @@ input[type="checkbox"] {
     display: grid;
     align-items: center;
     max-width: 840px;
-    width: 200px;
     height: auto;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     justify-content: space-between;
     gap: 10px;
 }
 .grid img{
-    max-width: 200px;
-    height: 300px;
+    width: 200px;
+    height:300px;
+    margin-top: auto;
+    padding: 2px;
+    align-items: center;
+    justify-content: space-around;
+}
+.grid figcaption{
+    text-align: center;
+    font-weight: bolder;
 }
 
 

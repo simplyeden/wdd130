@@ -281,7 +281,7 @@ button:hover {
 h3{
     color: var(--accent-color1);
     text-align: center;
-    font-weight: lighter;
+    font-weight: bolder;
 
 }
 .map-container{
@@ -304,7 +304,7 @@ input[type="radio"] {
     width: 16px;
     height: auto;
 }
-.radio{
+.radio {
     display: grid;
     grid-template-columns: auto 1fr;
     align-items:start;
@@ -319,39 +319,112 @@ input[type="checkbox"] {
 }
 
 /* Home page CSS */
-.newsletter{
-    width: 500px;
+.home-hero {
+    position: relative;
 }
-.newsletter-item{
+
+.home-hero img {
+    background-color: var(--primary-color);
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.home-hero article img {
+    float: right;
+    width: 125px;
+    height: auto;
+}
+
+.home-hero article {
+    background-color: var(--primary-color);
+    top: 100px;
+    position: absolute;
+    width: 600px;
+    left: 120px;
+    opacity: 0.9;
+}
+
+.home-hero h1{
+    background-color: var(--primary-color);
+    top: 16px;
     padding: 8px;
-    display: flex;
-    align-items: start;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    opacity: 0.9;
 }
-.interests{
-display: grid;
+.home-hero p{
+    top: 16px;
+    width: 100%;
+    text-align: center;
+}
+.home-hero a{
+    text-decoration: none;
+    color: var(--primary-color);
+    
+}
+
+.cta-button {
+    background-color: var(--accent-color2);
+    color: var(--accent-color1);
+    margin: 0 auto;
+    display: block;
+    align-items: center;
+    border-radius: .5rem;
+    width: 100px;
+    height: 25px;
+}
+.cta-button:hover{
+    background-color: var(--accent-color1);
+    color: var(--accent-color2);
+
+}
+.home-container{
+    display: grid;
+    grid-template-columns:420px auto;
+    gap: 10px;
+    
+}
+.home-container h2{
+    max-width:420px ;
+    background-color: var(--primary-color);
+}
+.newsletter{
+    width: 100%;
+    height:420px ;
+    display: grid;
+    grid-column: 1;
+    margin: 0;
+    background-color: var(--primary-color);
+}
+.newsletter-item input{  
+    margin: 0 .1rem;
+    max-width: 300px;
+}
+
+.newsletter-item{
+    padding: 2px;
+    align-items: center;
+    width:100%;
+    display: flex;
+}
+.success-stories {
+    width: 100%;
+    height: 420px;
+    background-color:var(--primary-color);
+    align-items: center;
+    
+}
+
+.interests {
+    display: grid;
     grid-template-columns: auto 1fr;
     align-items: center;
-    margin-left: 120px
+    gap: .5rem;
+    margin-left: 8px;
+    }
 
-}
-
-aside {
-    display: block;
-    width: 20rem;
-    text-align: center;
-    position: relative;
-    grid-column: 1;
-    grid-row: 1;
-}
-
-aside h2 {
-    position: absolute;
-    top: 0px;
-    text-align: center;
-    
-    
-
-}
 .grid {
     display: grid;
     align-items: center;
@@ -361,6 +434,10 @@ aside h2 {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     justify-content: space-between;
     gap: 10px;
+}
+.grid img{
+    max-width: 200px;
+    height: 300px;
 }
 
 

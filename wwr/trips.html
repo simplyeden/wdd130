@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Trips|White Water Rafting</title>
     <meta name="description"
-      content="Provides contact information and details, how to locate WWR and employee to ask for area needed.">
+      content="Provides  details on trips available at White Water Rafting and links to the contact page for contact details that allows visitors to reach out for more information">
     <meta name="author" content="Eden Medley">
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
@@ -26,79 +26,89 @@
 
     </header>
     <main>
-        <h2>Contact Us</h2>
-        <div class="contact">
-            <h3>White Water Rafting Company Ltd</h3>
-            <p>198 Lagordia Creek</p>
-            <p>West Oakland Park, Florida|33311</p>
-            <p>Phone: <a href="tel:+19546647641">+1(954)-664-7641</a></p>
-            <p>Email: <a href="mailto:info@wwradmin.com">info@wwradmin.com</a> </p>
+        <div class="hero">
+            <img src="images/background.jpg" alt="Background">
+            <h1>White Water Rafting Company Ltd</h1>
+            <article>
+                    <p> From rapids to ziplining or simply relaxing. We have an activity to suit your needs.</p>
+         
+            </article>
         </div>
-        <div class="map-container">
-            <div class="map">
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d30348.527403743927!2d-77.69292800000001!3d18.0453376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sjm!4v1775245127301!5m2!1sen!2sjm"
-                  width="400" height="400" allowfullscreen="" loading="lazy"
-                  referrerpolicy="no-referrer-when-downgrade">
-                </iframe>
-            </div>
-            <div class="message">
-                <h3>Send us a message</h3>
-                <form>
-                    <div class="form-item">
-                        <label for="name">Name</label>
-                        <input type="text" id="name" name="name" placeholder="Jane Doe" required>
-                    </div>
-                    <div class="form-item">
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="email"
-                          placeholder="janedoe@wwradmin.com" required>
-                    </div>
-                    <div class="form-item">
-                        <fieldset>
-                            <legend>Message <br> Purpose</legend>
-                        </fieldset>
-                        <div class="radio">
-                            <input type="radio" id="general" name="purpose" value="general">
-                            <label for="general">General Inquiry</label>
-                            <input type="radio" id="reservation" name="purpose" value="reservation">
-                            <label for="reservation">Reservation Question</label>
-                            <input type="radio" id="suggestions" name="purpose" value="suggestions">
-                            <label for="suggestions">Website Suggestions</label>
-                        </div>
-
-                    </div>
-                    <div class="form-item">
-                        <label for="message">Message
-                            <textarea name="message" id="message"
-                              placeholder="Type here"></textarea>
-                        </label>
-                    </div>
-                    <div class="form-item">
-                        <input type="checkbox" id="newsletter" name="newsletter">
-                        <label for="newsletter">Please subscribe me to the monthly
-                            newsletter</label>
-
-                    </div>
-
-                    <button type="submit" class="button"> Get in touch!</button>
-                </form>
-            </div>
+    
+        <div>
+            <aside>
+                <h2>Available Trips</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Trip Name</th>
+                            <th>Details</th>
+                            <th>Duration</th>
+                            <th>Cost (USD)</th>
+                            <th>Best For</th>
+                        </tr>
+                    </thead>  
+                    <tbody>
+                        <tr>
+                            <td>Bamboo Rafting</td>
+                            <td>Peaceful float on a handcrafted bamboo raft guided by a local captain.</td>
+                            <td> 1.5 hours</td>
+                            <td>$30-$70</td>
+                            <td>18 years+,seniors couples, friends, relaxation seekers</td>
+                        </tr>
+                        <tr>
+                            <td> Rafting in the Rapids </td>
+                            <td> Thrilling ride through fast-moving waters with splashes and excitement. </td>
+                            <td> 2 hours </td>
+                            <td> $80–$120 </td>
+                            <td> Adventure lovers, adrenaline seekers </td>
+                        </tr>
+                        <tr>
+                            <td> Lazy River-laxing </td>
+                            <td> Gentle drift down calm waters, perfect for unwinding and sightseeing. </td>
+                            <td> 1 – 5 hours </td>
+                            <td> $30–$125 </td>
+                            <td> All age groups, families, seniors, stress-free fun </td>
+                        </tr>
+                        <tr>
+                            <td> Raft n Hike </td>
+                            <td> Combo trip: rafting followed by a guided hike through scenic trails. </td>
+                            <td> 3–4 hours </td>
+                            <td> $100–$150 </td>
+                            <td> 18 years and over, nature enthusiasts, active travelers </td>
+                        </tr>
+                        <tr>
+                            <td> The Zip Adventure </td>
+                            <td> Rafting plus a zipline adventure over the river and forest canopy. </td>
+                            <td> Half-day </td>
+                            <td> $120–$180 </td>
+                            <td> Thrill seekers, groups of friends, families </td>
+                        </tr>
+                        <tr>
+                            <td> Raft and Dine </td>
+                            <td> Rafting experience ending with a riverside meal featuring local cuisine. </td>
+                            <td> 2–3 hours </td>
+                            <td> $90–$130 </td>
+                            <td> Couples, foodies, romantic outings </td>
+                        </tr>
+                        <tr>
+                            <td> The Adventure Combo </td>
+                            <td> Raft & Hike, zipline, lazy river-laxing and dining combined. </td>
+                            <td> Full day </td>
+                            <td> $300–$250 </td>
+                            <td> All-in-one explorers, group trips </td>
+                        </tr>
+                        
+                    </tbody>
+                    <tfoot>
+                    <tr>
+                        <td colspan="5">Prices are subject to changes. All quotes price or per person. <a href="contact.html" class="cta-button">Contact us</a> for group bookings.</td>
+                    </tr>
+                </tfoot>                
+                </table>
+            </aside>
         </div>
-        <section class="box">
-            <h2>We Are Here to Serve You</h2>
-            <div class="employee">
-                <figure><img src="images/blackwood.jpeg" alt="Reservations" width="150">
-                    <figcaption>Javenia Blackwood<br>Reservations Manager</figcaption>
-                </figure>
-                <figure> <img src="images/medley.jpg" alt="Customer Service" width="150">
-                    <figcaption>Eden Medley<br>Customer Care Manager</figcaption>
-                </figure>
-                <figure> <img src="images/peynado.jpeg" alt="Events Cordinator" width="150">
-                    <figcaption>Alicia Peynado<br>Events Cordinator</figcaption>
-                </figure>
-            </div>
-        </section>
+        
     </main>
     <footer>
         <p>©2026 🛶 White Water Rafting 🛶 Eden Medley</p>

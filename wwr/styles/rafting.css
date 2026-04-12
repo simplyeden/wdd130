@@ -367,18 +367,18 @@ input[type="checkbox"] {
 
 .cta-button {
     background-color: var(--accent-color2);
-    color: var(--accent-color1);
-    margin: 0 auto;
+    color: var(--primary-color);
+    margin:0 auto; 
+    padding: 8px;
     display: block;
     align-items: center;
     border-radius: .5rem;
     width: 100px;
-    height: 25px;
+    height: 35px;
 }
 .cta-button:hover{
     background-color: var(--accent-color1);
-    color: var(--accent-color2);
-
+    color: var(--primary-color);
 }
 .home-container{
     display: grid;

@@ -312,6 +312,52 @@ input[type="radio"] {
 input[type="checkbox"] {
     width: 16px;
     height: 16px;
-    margin: 0 2px;
-   
+    margin: 0 2px;   
 }
+
+/* Home page CSS */
+.newsletter{
+    width: 500px;
+}
+.newsletter-item{
+    padding: 8px;
+    display: flex;
+    align-items: start;
+}
+.interests{
+display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    margin-left: 120px
+
+}
+
+aside {
+    display: block;
+    width: 20rem;
+    text-align: center;
+    position: relative;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+aside h2 {
+    position: absolute;
+    top: 0px;
+    text-align: center;
+    
+    
+
+}
+.grid {
+    display: grid;
+    align-items: center;
+    max-width: 840px;
+    width: 200px;
+    height: auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+
